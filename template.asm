@@ -2,15 +2,15 @@
 	.model flat, stdcall
 	option casemap :none
 
-	include C:\MASM32\INCLUDE\WINDOWS.INC
-	include C:\MASM32\INCLUDE\KERNEL32.INC
-	include C:\MASM32\INCLUDE\USER32.INC
+	include c:\masm32\include\windows.inc
+	include c:\masm32\include\kernel32.inc
+	include c:\masm32\include\user32.inc
 
-	includelib C:\MASM32\LIB\comctl32.lib
-	includelib C:\MASM32\LIB\kernel32.lib
-	includelib C:\MASM32\LIB\user32.lib
-    includelib C:\MASM32\LIB\gdi32.lib
-    includelib C:\MASM32\LIB\advapi32.lib
+	includelib c:\masm32\lib\comctl32.lib
+	includelib c:\masm32\lib\kernel32.lib
+	includelib c:\masm32\lib\user32.lib
+    includelib c:\masm32\lib\gdi32.lib
+    includelib c:\masm32\lib\advapi32.lib
 .DATA
 
 .CODE
